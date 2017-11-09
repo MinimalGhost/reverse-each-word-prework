@@ -11,4 +11,5 @@ def reverse_each_word(sentence1)
   words.collect do |word|
     word.reverse!
   end
+  return words.join(' ')
 end
